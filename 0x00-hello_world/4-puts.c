@@ -1,6 +1,8 @@
 #include <stdio.h>
 
-/*description*/
+/**
+ * description
+ */
 
 int main(void)
 {
