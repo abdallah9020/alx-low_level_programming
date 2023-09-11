@@ -1,12 +1,14 @@
 #include <stdio.h>
-/*
- *function prints "Programming is like building a multilingual puzzle
- * return the value 0
- */
 
+/**
+ *  * main - Entry point
+ *   *
+ *    * Return: Always 0 (Success)
+ *     * This code print a message
+ *     */
 
-int main(void)  /*hok*/
+int main(void)
 {
-	puts("\"Programming is like building a multilingual puzzle");  /*this is*/
-	return (0);
+		puts("\"Programming is like building a multilingual puzzle");
+			return (0);
 }
