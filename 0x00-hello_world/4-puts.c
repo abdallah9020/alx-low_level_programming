@@ -1,8 +1,11 @@
 #include <stdio.h>
-
 /**
- * description
- */
+ * main - entry point
+ *
+ * description: a c file that prints
+ *
+ * Return: Always 0 (Sucess)
+*/
 
 int main(void)
 {
