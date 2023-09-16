@@ -6,7 +6,7 @@
 
 int _islower(int c) /*parameter c is an integer*/
 {
-	if ('a' <= c <= 'z')
+	if ('a' <= c && c <= 'z')
 		return (1);
 	else
 		return (0);
