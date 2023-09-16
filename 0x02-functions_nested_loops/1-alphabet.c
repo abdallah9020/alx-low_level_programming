@@ -14,5 +14,5 @@ void print_alphabet(void)
 	for (i = 1; i < 27; alpha++, i++)
 		_putchar(alpha);
 	_putchar('\n');
-	return (0);
+	return;
 }
