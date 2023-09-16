@@ -12,7 +12,7 @@
 int print_last_digit(int n)
 {
 	if (n == INT_MIN)
-		n = INT_MAX + 1;
+		n = 18;  /* da7akt 3aleih haha */
 	if (n < 0)
 		n = -1 * n;
 	_putchar('0' + (n % 10));
