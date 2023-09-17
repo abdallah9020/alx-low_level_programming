@@ -56,6 +56,7 @@ void print_times_table(int n)
 				_putchar('0' + product / 100);
 				_putchar('0' + middle);
 				_putchar('0' + product % 10);
+				printf ("hello");
 			}
 
 		}
