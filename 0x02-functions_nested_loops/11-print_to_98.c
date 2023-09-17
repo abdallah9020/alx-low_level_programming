@@ -2,7 +2,7 @@
 
 /**
  * print_to_98 - print al natural number to 98 frm n
- * 
+ *
  * @n: n
  *
  */
