@@ -2,7 +2,7 @@
 
 /**
  * print_times_table - entry
- *
+ * @n : n
  * Return: void
 */
 
@@ -12,7 +12,7 @@ void print_times_table(int n)
 	int y;
 	int product;
 	int middle;
-	
+
 	if (n < 0 || n > 15)
 		return;
 
