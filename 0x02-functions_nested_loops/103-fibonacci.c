@@ -12,7 +12,7 @@ int main(void)
 	long back = 1;
 	long back2 = 0;
 	int x;
-	long sum;
+	long sum = 0;
 
 	for (x = 1; x < 10000; x++)
 	{
