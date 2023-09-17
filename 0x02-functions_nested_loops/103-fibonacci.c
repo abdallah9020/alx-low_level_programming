@@ -27,4 +27,5 @@ int main(void)
 		back2 = back;
 		back = i;
 	}
+	return (0);
 }
