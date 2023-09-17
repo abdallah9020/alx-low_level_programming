@@ -40,6 +40,6 @@ void print_times_table(int n)
 				printf("%d", product);
 			}
 		}
-		_putchar('\n');
+		printf("\n");
 	}
 }
