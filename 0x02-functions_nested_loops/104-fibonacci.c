@@ -17,7 +17,7 @@ int main(void)
 	{
 		i = back + back2;
 		if (x < 98)
-			printf("%lu, ", i);
+			printf("%lu,", i);
 		else
 			printf("%lu", i);
 		back2 = back;
