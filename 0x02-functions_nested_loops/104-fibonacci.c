@@ -1,40 +1,28 @@
 #include <stdio.h>
 
 /**
- * main - check the code.
+ * main - enter
  *
- * Return: Always 0.
- */
+ * Return: Always 0
+*/
+
 int main(void)
 {
-	int i, n = 98;
+	unsigned long i;
+	unsigned long back = 1;
+	unsigned long back2 = 0;
+	int x;
 
-	unsigned long int a, b, sum;
-
-	for (i = 0; i < n ; i++)
+	for (x = 1; x <= 98; x++)
 	{
-		if (i == 0)
-		{
-			a = 0;
-			b = 1;
-			sum = 1;
-		}
-		else if (i == 1)
-		{
-			a = 1;
-			b = 2;
-			sum = 2;
-		}
+		i = back + back2;
+		if (x < 98)
+			printf("%lu, ", i);
 		else
-		{
-			sum = a + b;
-			a = b;
-			b = sum;
-		}
-		printf("%lu", sum);
-		if (i != n - 1)
-			printf(", ");
+			printf("%lu", i);
+		back2 = back;
+		back = i;
 	}
-	putchar('\n');
+	printf("\n");
 	return (0);
 }
