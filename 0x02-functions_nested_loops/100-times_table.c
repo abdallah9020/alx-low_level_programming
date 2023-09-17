@@ -35,7 +35,6 @@ void print_times_table(int n)
 			}
 			else
 			{
-				middle = (product / 10) % 10;
 				if (y > 0)
 					printf(", ");
 				printf("%d", product);
