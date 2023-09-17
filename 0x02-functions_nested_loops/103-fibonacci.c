@@ -19,7 +19,7 @@ int main(void)
 		i = back + back2;
 		if (i > 4000000)
 		{
-			printf("%d\n", sum);
+			printf("%ld\n", sum);
 			return (0);
 		}
 		if (i % 2 == 0)
