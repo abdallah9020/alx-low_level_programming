@@ -8,9 +8,9 @@
 
 int main(void)
 {
-	int i;
-	int back = 1;
-	int back2 = 0;
+	long i;
+	long back = 1;
+	long back2 = 0;
 	int x;
 
 	for (x = 1; x <= 50; x++)
