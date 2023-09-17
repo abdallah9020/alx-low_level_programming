@@ -16,7 +16,10 @@ int main(void)
 	for (x = 1; x <= 50; x++)
 	{
 		i = back + back2;
-		printf("%ld, ", i);
+		if (x < 50)
+			printf("%ld, ", i);
+		else
+			printf("%ld", i);
 		back2 = back;
 		back = i;
 	}
