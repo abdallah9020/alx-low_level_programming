@@ -16,10 +16,10 @@ int main(void)
 	for (x = 1; x <= 98; x++)
 	{
 		i = back + back2;
-		if (x < 98)
-			printf("%lu,", i);
-		else
-			printf("%lu", i);
+		/*if (x < 98)*/
+		printf("%lu, ", i);
+		/*else*/
+			/*printf("%lu", i);*/
 		back2 = back;
 		back = i;
 	}
