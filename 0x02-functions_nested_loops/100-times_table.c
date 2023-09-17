@@ -25,41 +25,22 @@ void print_times_table(int n)
 			if (product <= 9)
 			{
 				if (y > 0)
-				{
-					_putchar(',');
-					_putchar(' ');
-					_putchar(' ');
-					_putchar(' ');
-				}
-				_putchar('0' + product);
-
+					printf(",   ");
+				printf("%d", product);
 			}
 			else if (product >= 10 && product <= 99)
 			{
 				if (y > 0)
-				{
-					_putchar(',');
-					_putchar(' ');
-					_putchar(' ');
-				}
-				_putchar('0' + product / 10);
-				_putchar('0' + product % 10);
-
+					printf(",  ");
+				printf("%d", product);
 			}
 			else
 			{
 				middle = (product / 10) % 10;
 				if (y > 0)
-				{
-					_putchar(',');
-					_putchar(' ');
-				}
-				_putchar('0' + product / 100);
-				_putchar('0' + middle);
-				_putchar('0' + product % 10);
-				printf ("hello");
+					printf(", ");
+				printf("%d", product);
 			}
-
 		}
 		_putchar('\n');
 	}
