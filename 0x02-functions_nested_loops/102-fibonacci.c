@@ -16,7 +16,7 @@ int main(void)
 	for (x = 1; x <= 50; x++)
 	{
 		i = back + back2;
-		printf("%d, ", i);
+		printf("%ld, ", i);
 		back2 = back;
 		back = i;
 	}
