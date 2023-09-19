@@ -1,14 +1,9 @@
 #include "main.h"
 
 /**
- * print_rev - enter
+ * rev_string - enter
  * @s: string
 */
-
-void print_rev(char *s)
-{
-	int i;
-	int j;
 	int k;
 	int lenght = 0;
 	char temp[10000000];
