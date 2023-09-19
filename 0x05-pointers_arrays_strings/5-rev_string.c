@@ -15,7 +15,6 @@ void print_rev(char *s)
 
 	for (j = 0; s[j] != '\0'; j++)
 		lenght += 1;
-	char temp[lenght];
 
 	for (i = lenght - 1, k = 0; i != 0, k < lenght; i--, k++)
 		temp[k] = s[i];
