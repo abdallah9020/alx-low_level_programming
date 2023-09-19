@@ -11,6 +11,7 @@ void print_rev(char *s)
 	int j;
 	int k;
 	int lenght = 0;
+	char *temp;
 
 	for (j = 0; s[j] != '\0'; j++)
 		lenght += 1;
