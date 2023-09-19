@@ -4,6 +4,9 @@
  * rev_string - enter
  * @s: string
 */
+
+	int i;
+	int j;
 	int k;
 	int lenght = 0;
 	char temp[10000000];
