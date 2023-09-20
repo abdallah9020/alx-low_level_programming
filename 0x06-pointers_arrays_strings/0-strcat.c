@@ -9,7 +9,7 @@
 
 char *_strcat(char *dest, char *src)
 {
-	int i;
+	int i, j;
 	int lenght1 = strlen(dest);
 	int lenght2 = strlen(src);
 
