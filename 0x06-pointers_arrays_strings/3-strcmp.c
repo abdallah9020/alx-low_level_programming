@@ -1,3 +1,5 @@
+#include <string.h>
+
 /**
  * _strcmp - enter
  * @s1: string
