@@ -9,7 +9,7 @@
 
 int _strcmp(char *s1, char *s2)
 {
-	int lenght1, length2;
+	int length1, length2;
 
 	length1 = strlen(s1);
 	length2 = strlen(s2);
