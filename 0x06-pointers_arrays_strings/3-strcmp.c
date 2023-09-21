@@ -1,5 +1,3 @@
-#include <string.h>
-
 /**
  * _strcmp - enter
  * @s1: string
@@ -9,21 +7,26 @@
 
 int _strcmp(char *s1, char *s2)
 {
-	int length1, length2;
+	int i;
 
-	length1 = strlen(s1);
-	length2 = strlen(s2);
-
-	if (length1 > length2)
+	for (i = 0; s1[i] != '\0' && s2[i] != '\0'; i++)
 	{
-		return (1);
+		if (s1[i] > s2[i])
+		{
+			return (1);
+		}
+		else if (s1 < s2)
+		{
+			return (-1);
+		}
+		else
+			continue;
+
 	}
-	else if (length1 == length2)
-	{
+	if (strlen(s1) == strlen(s2))
 		return (0);
-	}
-	else
-	{
+	else if (strlen(s1) < strlen(s2))
 		return (-1);
-	}
+	else
+		return (1);
 }
